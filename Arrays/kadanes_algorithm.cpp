@@ -3,6 +3,10 @@
 using namespace std;
 
 int main(){
+    int t;
+    cin>>t;
+    while(t--)
+    {
     int n;
     cin>>n;
     int a[1000];
@@ -22,6 +26,6 @@ int main(){
         }
          
     }
-    cout<<"Maximum sum is :"<<max_sum;
+    cout<<max_sum<<endl;}
     return 0;
 }
